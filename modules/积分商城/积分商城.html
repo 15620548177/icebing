@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-width=1.0,maximum-width=1.0,user-scalable=no">
+	<meta charset="UTF-8">
+	<title>积分商城</title>
+	<link rel="stylesheet" type="text/css" href="./jifen.css">
+	<script type="text/javascript" src="./jifen.js"></script>
+</head>
+<body>
+	<div class="get-ding">
+	<span  class="get-img"></span>
+	<span class="get-info">积分商城</span>
+	</div>
+	
+	<div class="yuan">
+		
+		<div class="jiyuan">
+			<div class="jiyuan1">
+			<p>可用积分</p>
+			<p>0</p>
+		</div>
+		</div>
+
+	</div>
+	<div class="mingxi">
+		<ul>
+			<li>积分明细</li>
+			<li>兑换记录</li>
+			<li>积分规则</li>
+		</ul>
+	</div>
+		
+	<div class="daiquan">
+	<ul>
+		<li>
+			<p>3元积分兑换券</p>
+			<p>300积分</p>
+		</li>
+		<li>
+			<p>5元积分兑换券</p>
+			<p>500积分</p>
+		</li>
+		<li>
+			<p>8元积分兑换券</p>
+			<p>800积分</p>
+		</li>
+		<li>
+			<p>10元积分兑换券</p>
+			<p>1000积分</p>
+		</li>
+	</ul>
+	</div>
+
+</body>
+	<script type="text/javascript">
+		(function(){
+			var calc = function(){
+        		var docElement = document.documentElement;
+        		var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        		docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+			}
+			calc();
+			window.addEventListener('resize',calc);
+		})();
+	</script>
+</html>

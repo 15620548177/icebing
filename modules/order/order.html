@@ -1,0 +1,149 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-width=1.0,maximum-width=1.0,user-scalable=no">
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="./gouwuche.css">
+	<link rel="stylesheet" type="text/css" href="./swiper.min.css">
+	<script type="text/javascript">
+		(function(){
+			var calc = function(){
+        		var docElement = document.documentElement;
+        		var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        		docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+			}
+			calc();
+			window.addEventListener('resize',calc);
+		})();
+	</script>
+</head>
+<body> -->
+		<div class="goushop">
+			<div>
+				购物车
+			</div>
+		</div>
+	<div id="shouhuo">
+		<table class="shoutb">
+			<tbody>
+				<tr>
+					<th>收 货 人</th>
+					<td>冰&nbsp;先生</td>
+					<td rowspan="3" class="xiugai">修改</td>
+				</tr>
+				<tr>
+					<th>电&nbsp;&nbsp;话</th>
+					<td>15620548177</td>
+				</tr>
+				<tr>
+					<th>收货地址</th>
+					<td>北京市物美超市二楼育知同创</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="shanqu">
+		<div class="shanco">
+			<span>闪送超市</span>
+			<span>凑单专区</span>
+		</div>
+		<p>￥0起送,22:00前满￥30免费送,22:00后满￥69免费送</p>
+	</div>
+	
+	<div>
+		<p class="time">
+			<span class="super-time">收货时间</span>
+			<span class="look-yu">可预订</span>
+			<select class="song-time">
+				<optgroup label="今天">
+					<option value="一小时送达" data-dateid="0" data-time="一小时送达" data-dateidstr="今天"  selected >一小时送达</option>
+					<option value="10:00-11:00" data-dateid="0" data-time="10:00-11:00" data-dateidstr="今天" >10:00-11:00</option>
+					<option value="11:00-12:00" data-dateid="0" data-time="11:00-12:00" data-dateidstr="今天" >11:00-12:00</option>
+					<option value="12:00-13:00" data-dateid="0" data-time="12:00-13:00" data-dateidstr="今天" >12:00-13:00</option>
+					<option value="13:00-14:00" data-dateid="0" data-time="13:00-14:00" data-dateidstr="今天" >13:00-14:00</option>
+					<option value="14:00-15:00" data-dateid="0" data-time="14:00-15:00" data-dateidstr="今天" >14:00-15:00</option>
+					<option value="15:00-16:00" data-dateid="0" data-time="15:00-16:00" data-dateidstr="今天" >15:00-16:00</option>
+					<option value="16:00-17:00" data-dateid="0" data-time="16:00-17:00" data-dateidstr="今天" >16:00-17:00</option>
+					<option value="18:00-19:00" data-dateid="0" data-time="18:00-19:00" data-dateidstr="今天" >18:00-19:00</option>
+					<option value="19:00-20:00" data-dateid="0" data-time="19:00-20:00" data-dateidstr="今天" >19:00-20:00</option>
+					<option value="20:00-21:00" data-dateid="0" data-time="20:00-21:00" data-dateidstr="今天" >20:00-21:00</option>
+					<option value="21:00-22:00" data-dateid="0" data-time="21:00-22:00" data-dateidstr="今天" >21:00-22:00</option>
+					<option value="22:00-23:00" data-dateid="0" data-time="22:00-23:00" data-dateidstr="今天" >22:00-23:00</option>
+				</optgroup>
+				<optgroup label="明天">
+					<option value="明天" data-dateid="0" data-time="9:00-10:00" data-dateidstr="明天"   >9:00-10:00</option>
+					<option value="明天" data-dateid="0" data-time="10:00-11:00" data-dateidstr="明天" >10:00-11:00</option>
+					<option value="明天" data-dateid="0" data-time="11:00-12:00" data-dateidstr="明天" >11:00-12:00</option>
+					<option value="明天" data-dateid="0" data-time="12:00-13:00" data-dateidstr="明天" >12:00-13:00</option>
+					<option value="明天" data-dateid="0" data-time="13:00-14:00" data-dateidstr="明天" >13:00-14:00</option>
+					<option value="明天" data-dateid="0" data-time="14:00-15:00" data-dateidstr="明天" >14:00-15:00</option>
+					<option value="明天" data-dateid="0" data-time="15:00-16:00" data-dateidstr="明天" >15:00-16:00</option>
+					<option value="明天" data-dateid="0" data-time="16:00-17:00" data-dateidstr="明天" >16:00-17:00</option>
+					<option value="明天" data-dateid="0" data-time="18:00-19:00" data-dateidstr="明天" >18:00-19:00</option>
+					<option value="明天" data-dateid="0" data-time="19:00-20:00" data-dateidstr="明天" >19:00-20:00</option>
+					<option value="明天" data-dateid="0" data-time="20:00-21:00" data-dateidstr="明天" >20:00-21:00</option>
+					<option value="明天" data-dateid="0" data-time="21:00-22:00" data-dateidstr="明天" >21:00-22:00</option>
+					<option value="明天" data-dateid="0" data-time="22:00-23:00" data-dateidstr="明天" >22:00-23:00</option>
+				</optgroup>
+				<optgroup label="后天">
+					<option value="后天" data-dateid="0" data-time="9:00-10:00"  data-dateidstr="后天"  >9:00-10:00</option>
+					<option value="后天" data-dateid="0" data-time="10:00-11:00" data-dateidstr="后天"  >10:00-11:00</option>
+					<option value="后天" data-dateid="0" data-time="11:00-12:00" data-dateidstr="后天" >11:00-12:00</option>
+					<option value="后天" data-dateid="0" data-time="12:00-13:00" data-dateidstr="后天" >12:00-13:00</option>
+					<option value="后天" data-dateid="0" data-time="13:00-14:00" data-dateidstr="后天" >13:00-14:00</option>
+					<option value="后天" data-dateid="0" data-time="14:00-15:00" data-dateidstr="后天" >14:00-15:00</option>
+					<option value="后天" data-dateid="0" data-time="15:00-16:00" data-dateidstr="后天" >15:00-16:00</option>
+					<option value="后天" data-dateid="0" data-time="16:00-17:00" data-dateidstr="后天" >16:00-17:00</option>
+					<option value="后天" data-dateid="0" data-time="18:00-19:00" data-dateidstr="后天" >18:00-19:00</option>
+					<option value="后天" data-dateid="0" data-time="19:00-20:00" data-dateidstr="后天" >19:00-20:00</option>
+					<option value="后天" data-dateid="0" data-time="20:00-21:00" data-dateidstr="后天" >20:00-21:00</option>
+					<option value="后天" data-dateid="0" data-time="21:00-22:00" data-dateidstr="后天" >21:00-22:00</option>
+					<option value="后天" data-dateid="0" data-time="22:00-23:00" data-dateidstr="后天" >22:00-23:00</option>
+				</optgroup>
+			</select>
+			<span class="hour-one">一小时送达</span>
+		</p>
+	</div>
+
+	<div class="beizhu">
+					<span>收货备注</span>
+					<div>
+						<input type="text"  placeholder="可输入100字以内特殊要求内容">
+					</div>
+				</div>
+
+	<table class="myshop-list">
+				<tr class="tr-get">
+					<td></td>
+					<td>
+						<div class="image-car"></div>
+					</td>
+					<td>
+						<div class="xiang-car">屈臣氏蒸馏水</div>
+						<p class="price-car">￥3</p>
+						<span class="jian">
+							<span></span>
+						</span>
+						<span class="shuzi">2</span>
+						<span class="shi">
+							<span></span>
+						</span>
+					</td>
+				</tr>
+			</table>	
+
+			<div class="selected">
+				<span class="allselect">全选</span>
+				<span class="gong-price">
+					<span class="gong-select">共：</span>
+					<span class="price-select">6</span>
+				</span>
+				<span class="good-select">选好了</span>
+			</div>
+		</div>
+	</div>
+<!-- </body>
+</html> -->

@@ -1,0 +1,139 @@
+*{margin: 0;
+	padding: 0;
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+    color: #333;
+    box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	font-size: 16px;
+}
+p,span,li{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.get-ding{
+	width: 100%;
+	background-color: #f9fafd;
+	height:58px;
+	border-bottom:1px solid #e0e0e0;
+	position: relative;
+    line-height: 58px;
+    z-index: 2;
+ 
+}
+.get-img{
+	width: 30px;
+	height: 40px;
+	position: absolute;
+	display: inline-block;
+	left: 7px;
+	top:10px;
+	text-align: left;
+	background: url(../img/fan.png) no-repeat center;
+	background-size: auto 30px;
+}
+.get-info{
+	position: absolute;
+	left:0;
+	right: 0;
+	margin:0 auto;
+	line-height: 58px;
+	font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.yuan{
+	width: 100%;
+	height: 230px;
+	border:1px solid #e0e0e0;
+}
+.jiyuan{
+	width: 180px;
+	height: 180px;
+	border: 20px solid  #efefef;
+	border-radius: 50%;
+	text-align: center;
+	margin: 25px auto;
+}
+.jiyuan1{
+	width: 140px;
+	height: 140px;
+	border: 15px solid #dededf;
+	border-radius: 50%;
+}
+.jiyuan p:first-of-type{
+	text-align: center;
+	margin-top: 40px;
+	color: #dededf;
+}
+.mingxi{
+	width: 100%;
+	border-bottom: 15px solid #efefef;
+}
+.mingxi ul{
+	display: flex;
+}
+.mingxi li{
+	width: 33%;
+	flex: 1 auto;
+	text-align: center;
+	border-left: 1px solid #efefef;
+	padding:50px 0 13px 0;
+	color: #a1a1a1;
+}
+.mingxi li:first-of-type{
+	background:url(../img/j1.png) no-repeat  center 10px; 
+	background-size: 30px;
+}
+.mingxi li:nth-of-type(2){
+	background:url(../img/j2.png) no-repeat center 10px;
+	background-size: 30px; 
+}
+.mingxi li:last-of-type{
+	background:url(../img/j3.png) no-repeat center 10px; 
+	background-size: 30px;
+
+}
+.daiquan{
+	width: 100%;
+}
+.daiquan ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.daiquan ul li{
+	width: 50%;
+	flex: 1 auto;
+	border-left: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	padding: 120px 0 0 0 ;
+	text-indent: 20px;
+}
+.daiquan li p{
+		height: 36px;
+		margin:10px 0 10px 0;
+}
+.daiquan li:first-of-type{
+	background:url(../img/j4.jpg) no-repeat  center 10px; 
+	background-size: 100% 50%;
+}
+.daiquan li:nth-of-type(2){
+	background:url(../img/j5.jpg) no-repeat center  10px;
+	background-size: 100% 50%; 
+}
+.daiquan li:nth-of-type(3){
+	background:url(../img/j6.jpg) no-repeat center  10px;
+	background-size: 100% 50%; 
+}
+.daiquan li:last-of-type{
+	background:url(../img/j7.jpg) no-repeat center  10px; 
+	background-size: 100% 50%;
+
+}
+.daiquan li p:last-of-type{
+	color: #e75522;
+}

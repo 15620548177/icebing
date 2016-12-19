@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-width=1.0,maximum-width=1.0,user-scalable=no">
+	<meta charset="UTF-8">
+	<title>搜索</title>
+	<link rel="stylesheet" type="text/css" href="../css/sou.css">
+</head>
+<body>
+
+	<div class="get-sou">
+	<span  class="get-img"></span>
+	<div class="get-info">
+		<input type="text" placeholder="请输入商品名称">
+	</div>
+	<span class="get-find">搜索</span>
+	</div>
+
+	<div class="hot-find">
+		<p>热门搜索</p>
+		<ul>
+			<li>大闸蟹</li>
+			<li>水</li>
+			<li>中秋月饼</li>
+			<li>酸奶</li>
+			<li>啤酒</li>
+			<li>西瓜</li>
+			<li>大荔冬枣</li>
+			<li>贝儿蛋糕</li>
+			<li>月盛斋</li>
+		</ul>
+	</div>
+	<div class="jilv">
+	<p>历史记录</p>
+		<ul>
+			<li>大闸蟹</li>
+		</ul>
+		<span>清空历史</span>
+	</div>
+</body>
+	<script type="text/javascript">
+		(function(){
+			var calc = function(){
+        		var docElement = document.documentElement;
+        		var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        		docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+			}
+			calc();
+			window.addEventListener('resize',calc);
+		})();
+	</script>
+</html>

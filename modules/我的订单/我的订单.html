@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-width=1.0,maximum-width=1.0,user-scalable=no">
+	<meta charset="UTF-8">
+	<title>我的订单</title>
+	<link rel="stylesheet" type="text/css" href="./mylist.css">
+	<script type="text/javascript"  src="./mylist.js"></script>
+</head>
+<body>
+	<div class="get-ding">
+	<span  class="get-img"></span>
+	<div class="get-info">
+		我的订单
+	</div>
+	<span class="get-fan"></span>
+	</div>
+	
+	<div class="dingqu">
+		<ul>
+		<li>全部订单</li>
+		<li>待付款</li>
+		<li>待发货</li>
+		<li>待评价</li>
+		<li>退款/售后</li>
+		</ul>
+	</div>
+	<div class="dingwu">
+		<div class="wuping"></div>
+		<p>还没有订单哦</p>
+
+	</div>
+</body>
+	<script type="text/javascript">
+		(function(){
+			var calc = function(){
+        		var docElement = document.documentElement;
+        		var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        		docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+			}
+			calc();
+			window.addEventListener('resize',calc);
+		})();
+	</script>
+</html>

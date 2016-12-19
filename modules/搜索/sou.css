@@ -1,0 +1,98 @@
+*{margin: 0;
+	padding: 0;
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+    color: #333;
+    box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	background: #e9e9e9;
+	font-size: 16px;
+}
+.get-sou{
+	width: 100%;
+	display: flex;
+	background-color: #f9fafd;
+	line-height: 4.5rem;
+	height: 4.5rem;
+}
+.get-img{
+	flex: 2;
+	background: url(../img/fan.png) no-repeat center;
+	background-size: 40px;
+}
+.get-info{
+	background-color: #fff;
+	flex: 7;
+	margin: auto;
+	padding-left: 2.4rem;
+	background: url(../img/sao.png) no-repeat left center;
+	background-size: 20px;
+	border: 1px solid #e0e0e0;
+	height: 2.6rem;
+	display: flex;
+	align-items: center;
+}
+.get-info>input{
+	border: none;
+	background: none;
+
+}
+.get-find{
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hot-find>ul,.hot-find{
+	width: 100%;
+}
+.hot-find p{
+	text-indent: 10px;
+	margin-top:40px;
+	color: #898989;
+}
+.hot-find>ul>li{
+	float: left;
+	padding: .8rem  1.5rem;
+	background: #fff;
+	border-radius: 20px;
+	border:2px solid #e4e4e4;
+	margin-left: 8px;
+	margin-top:0.625rem;
+}
+.jilv{
+	overflow: hidden;
+	width: 100%;
+}
+.jilv p{
+	text-indent: 10px;
+	margin-top:60px;
+	color: #898989;
+}
+.jilv ul{
+	width: 100%;
+}
+.jilv ul>li{
+	padding: .8rem  1.5rem;
+	display: inline-block;
+	background: #fff;
+	border-radius: 20px;
+	border:2px solid #e4e4e4;
+	margin-left: 8px;
+	margin-top:0.625rem;
+}
+.jilv span{
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border:2px solid #dfdfdf;
+	border-radius: 10px;
+	margin:50px 0 0 20%;
+	color: #bdbdbd;
+}

@@ -1,0 +1,49 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+    color: #333;
+    box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	background: #ffd82b;
+	font-size: 16px;
+}
+p,span,li{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.ding-in{
+	width: 100%;
+	position: relative;
+}
+.ding-logo{
+	width: 50%;
+	height: 110px;
+	background: url(../img/logo.png)no-repeat center;
+	background-size: 210px 110px;
+	position: absolute;
+	top: 200px;
+	left: 25%;
+}
+.ding-find{
+	width: 40px;
+	height: 40px;
+	background: url(../img/ding1.png)no-repeat center;
+	background-size:38px 38px;
+	position: absolute;
+	top: 350px;
+	left: 45%;
+}
+.ding-in p{
+	width: 20%；
+	height:20px;
+	position:absolute;
+	top:390px; 
+	left: 45%;
+}
