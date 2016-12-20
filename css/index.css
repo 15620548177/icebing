@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 	color: #232b33;
 }
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 0.16rem;
+}
 ul,ol{
 	list-style: none;
 }
